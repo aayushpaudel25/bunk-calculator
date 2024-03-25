@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bunk Calculator</title>
+  <link rel="stylesheet" href="bunk.css">
+</head>
+<body>
+  <div class="whole_page">
+    <h1>Bunk Calculator</h1>
+    <div class="container">
+      <input id="classAttended" class="buttons" type="number" placeholder="Classes attended">
+      <input id="classConducted" class="buttons" type="number" placeholder="Classes conducted">
+      <div class="attendanceReqd">
+        <p class="att">Attendance Required:</p>
+        <button onclick="minLectures75()" class="calculate">75%</button>
+        <button onclick="minLectures80()" class="calculate">80%</button>
+        <button onclick="minLectures85()" class="calculate">85%</button>
+       
+      </div>
+      </div>
+      
+      <label id="result"></label>
+      <p class="copyright">&#169; Aayush Paudel</p>
+
+    </div>
+  </div>
+  
+  <script src="bunk.js"></script>
+  
+</body>
+</html>
